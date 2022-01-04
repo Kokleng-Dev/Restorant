@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restorant</title>
+    <link rel="stylesheet" href="asset/css/tailwindcss/tailwind.css">
+    <link rel="stylesheet" href="asset/font/fontawesome-free-v5-web/css/all.css">
+    <link rel="stylesheet" href="asset/css/style.css">   
+
+</head>
+<body class="flex flex-col justify-center items-center bg-gray-400">
+
+    <header class="content backgroundImg relative">
+        <div class=" menu flex justify-around items-center">
+            <div class="flex flex-row justify-start items-center cursor-pointer">
+                <img class="pb-2" src="asset/img/about-us/logo.png">
+                <p class="text-myGreen uppercase font-bolderr font-black text-3xl pl-2">Территория вкуса</p>
+            </div>
+            <nav class="navigation-bar flex justify-end">
+                <ul class="flex justify-center items-center">
+                    <li class="text-myGreen mr-10">
+                        <a href="#">Пицца</a>
+                    </li>
+                    <li class="text-myGray mr-10">
+                        <a href="#">Роллы</a>
+                    </li>
+                    <li class="text-myGray mr-10">
+                        <a href="#">Бизнес-ланчи</a>
+                    </li>
+                    <li class="text-myGray mr-10">
+                        <a href="#">Закуски</a>
+                    </li>
+                    <li class="text-myGray mr-10">
+                        <a href="#">Десерты</a>
+                    </li>
+                    <li class="text-myGray">
+                        <a href="#">Напитки</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <h1 class="text-white text-center text-7xl font-medium py-14">
+            Доставка свежей и горячей еды  <br>
+            в течение  40 минут
+        </h1>
+        <div class="flex flex-row justify-center items-center gap-x-40">
+            <div class="text-center">
+                <div class="text-myGreen text-2xl pb-1">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <p class="text-white text-lg">
+                    Доставка с 10:00 до 19:00 <br>
+                    <span class="text-gray-400 text-sm uppercase">
+                        Время работы
+                    </span>
+                </p>
+            </div>
+            <div class="text-center">
+                <div class="text-myGreen text-2xl pb-1">
+                    <i class="fab fa-telegram-plane"></i>
+                </div>
+                <p class="text-white text-lg">
+                    ул. Горького, 126 <br>
+                    <span class="text-gray-400 text-sm uppercase">
+                        ближайшее кафе
+                    </span>
+                </p>
+            </div>
+            <div class="text-center">
+                <div class="text-myGreen text-2xl pb-1">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <p class="text-white text-lg">
+                    8-800-100-20-20 <br>
+                    <span class="text-gray-400 text-sm uppercase">
+                        заказ по  телефону
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="icon flex flex-col items-center justify-center">
+            <div class="icon-item flex justify-center items-center text-myGreen">
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
+            <div class="icon-item flex justify-center items-center text-myGreen">
+                <a href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="icon-item flex justify-center items-center text-myGreen">
+                <a href="#">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+        <div class="big-card">
+            <div>
+                <h2 class="text-center text-myGreen font-medium uppercase pt-10 pb-4 text-5xl">Бизнес-ланч</h2>
+                <p class="text-center text-myGray text-sm pb-10 font-medium">заказ до 15:00</p>
+            </div>
+            <div class="flex flex-row justify-center items-start gap-x-10">
+                <div class="flexBasic-30">
+                    <div class="border-bottom mb-2 pb-2">
+                        <p class="text-white text-xl font-medium pb-2">На первое:</p>
+                        <p class="text-gray-400 text-xs">Cуп-лапша, борщ, солянка, сырный крем-суп с грибами</p>
+                    </div>
+                    <div class="border-bottom mb-2 pb-2">
+                        <p class="text-white text-xl font-medium pb-2">На первое:</p>
+                        <p class="text-gray-400 text-xs">
+                            Свиная  отбивная, паста с баклажанами,  стйек из семги, курица <br> по-тайски, запечёный картофель, ризотто
+                        </p>
+                    </div>
+                    <div class="border-bottom mb-2 pb-2">
+                        <p class="text-white text-xl font-medium pb-2">На первое:</p>
+                        <p class="text-gray-400 text-xs">
+                            Фунцоза, цезарь, весенний, ананасовый
+                        </p>
+                    </div>
+                    <div>
+                        <p class="text-white text-xl font-medium pb-2">На первое:</p>
+                        <p class="text-gray-400 text-sm">
+                            Кофе, чай фруктовый, морс клюквенный, компот <br> яблочно-вишневый
+                        </p>
+                    </div>
+                </div>
+                <div class="flexBasic-30">
+                    <img class="w-full h-full" src="asset/img/top-food.png">
+                </div>
+            </div>
+            <div class="flex justify-center items-center my-10 text-center">
+                <div class=" btnTranparent">
+                    <a href="#" class="width-160 height-32 text-myGreen block">заказать</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="content bg-black pt-96 pb-20">
+        <div class="flex flex-row justify-center items-center gap-x-40">
+            <div class="circle flex flex-col justify-center items-center w-52 h-60">
+                <div>
+                    <img src="asset/img/cake.png">
+                </div>
+                <p class="text-myGray pt-3">Семейные <br> праздники</p>
+            </div>
+            <div class="circle flex flex-col justify-center items-center w-52 h-60">
+                <div>
+                    <img src="asset/img/home.png">
+                </div>
+                <p class="text-myGray pt-3">Семейные <br> праздники</p>
+            </div>
+            <div class="circle flex flex-col justify-center items-center w-52 h-60">
+                <div>
+                    <img src="asset/img/bag.png">
+                </div>
+                <p class="text-myGray pt-3">Семейные <br> праздники</p>
+            </div>
+        </div>
+    </section>
+
+    <section class=" content slide flex justify-center items-center">
+        <div class="flex justify-around items-center gap-x-64">
+            <div class="left">
+                <a href="#">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+            <div class="flex justify-between items-center">
+                <div class="px-36 text-left">
+                    <p class="text-myGreen text-4xl pb-5 uppercase font-medium"> Соберите  <br> свою пиццу </p>
+                    <p class="text-myWhite text-2xl pb-10"> Мы приготовим для Вас пиццу с <br> 
+                        вашими любимыми игридиентами 
+                    </p>
+                    <div class="flex justify-center items-center width-160 height-32 btnTranparent">
+                        <a href="#" class=" py-2 px-16 text-myGreen text-center">заказать</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="#">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="check flex flex-row justify-center items-center">
+            <span ></span>
+            <span ></span>
+            <span ></span>
+         </div>
+    </section>
+
+    <section class="content underslide flex flex-col justify-center items-center">
+        <div class="my-14">
+            <h2 class="my-text text-myWhite text-center text-4xl relative">Календарь мероприятий</h2>
+        </div>
+        <div class="width-1200 height-416 box-border flex justify-center items-center gap-x-10 m-auto">
+            <div class="width-379 height-416 bg-myGray rounded pb-3">
+                <div class="flex flex-row justify-between border-b border-gray-300 p-4">                  
+                    <div class="text-myGray flex justify-center items-center hover-text-mygreen">
+                        <a href="#">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="text-white flex justify-center items-center">
+                            Сентябрь 2020
+                        </p>
+                    </div>
+                    <div class="text-myGray flex justify-center items-center hover:text-green-700 hover-text-mygreen">
+                        <a href="#">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center text-xs text-gray-100 py-2 px-3">
+                    <div class="day flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm" href="#">Пн</a>
+                    </div>
+                    <div class="day flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm" href="#">Вт</a>
+                    </div>
+                    <div class="day flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm" href="#">Ср</a>
+                    </div>
+                    <div class="day flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm" href="#">Чт</a>
+                    </div>
+                    <div class="day flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm" href="#">Пт</a>
+                    </div>
+                    <div class="day flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm" href="#">Сб</a>
+                    </div>
+                    <div class="day flex justify-center items-center w-8 h-8 ">
+                        <a class="text-sm" href="#">Вс</a>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-end items-center text-center text-xs text-gray-100 pr-4">
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 ">
+                        <a class="text-sm uppercase" href="#">
+                            <span>1</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center text-xs text-gray-100 py-3 px-3">
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>2</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>3</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>4</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>5</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>6</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase text-myGreen" href="#">
+                            <span>7</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 ">
+                        <a class="text-sm uppercase" href="#">
+                            <span>8</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center text-xs text-gray-100 py-3 px-3">
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>9</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase text-myGreen" href="#">
+                            <span>10</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>11</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>12</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase text-myGreen" href="#">
+                            <span>13</span>
+                        </a>
+                    </div>
+                    <div class="active-Circle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase text-myGreen" href="#">
+                            <span>14</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle hoverCircle flex justify-center items-center w-8 h-8 ">
+                        <a class="text-sm uppercase" href="#">
+                            <span>15</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center text-xs text-gray-100 py-3 px-3">
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>16</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>17</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase text-myGreen" href="#">
+                            <span>18</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>19</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase text-myGreen" href="#">
+                            <span>20</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase text-myGreen" href="#">
+                            <span>21</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 ">
+                        <a class="text-sm uppercase" href="#">
+                            <span>22</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center text-xs text-gray-100 py-3 px-3">
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>23</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>24</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>25</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase text-myGreen" href="#">
+                            <span>26</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>27</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>28</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8">
+                        <a class="text-sm uppercase" href="#">
+                            <span>29</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-start items-center text-center text-xs text-gray-100 py-2 pl-4">
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8 mr-5">
+                        <a class="text-sm uppercase" href="#">
+                            <span>30</span>
+                        </a>
+                    </div>
+                    <div class="hoverCircle flex justify-center items-center w-8 h-8">
+                        <a class="text-sm uppercase" href="#">
+                            <span>31</span>
+                        </a>
+                    </div>
+                </div>   
+            </div>
+            <div class="flex flex-col gap-y-10">
+                <div class="width-790 height-151 rounded-md bg-myGray p-5">
+                    <p class="text-xs text-myGray">10:00</p>
+                    <h2 class="pt-2 text-white">Детский мастер-класс</h2>
+                    <p class="pt-1 text-myWhite">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                    <div class="text-myWhite text-sm text-right pt-2">
+                        <span class="pr-1 hover-text-mygreen"> 
+                            <a href="#">
+                                <i class="fas fa-eye"></i> 
+                            </a>
+                        </span>
+                        <span class="pr-1">275</span>
+                        <span class="pr-1 hover-text-mygreen">
+                            <a href="#">
+                                <i class="far fa-comments"></i>
+                            </a>
+                        </span>
+                        <span>12</span>
+                    </div>
+                </div>
+                <div class="width-790 height-151 rounded-md bg-ImgPlacholder p-5">
+                    <p class="text-xs text-myGray">19:00</p>
+                    <h2 class="pt-2 text-white">Джазовый концерт</h2>
+                    <p class="pt-1 text-myGray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+                    <div class="text-white text-sm text-right pt-2">
+                        <span class="pr-1 hover-text-mygreen"> 
+                            <a href="#">
+                                <i class="fas fa-eye"></i> 
+                            </a>
+                        </span>
+                        <span class="pr-1">275</span>
+                        <span class="pr-1 hover-text-mygreen">
+                            <a href="#">
+                                <i class="far fa-comments"></i>
+                            </a>
+                        </span>
+                        <span>12</span>
+                    </div>
+                </div>
+                <div class="text-myGreen text-right text-sm">
+                    <a class="hover:text-white uppercase font-bold" href="#">Все ближайшие события >></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content under-calendar pb-20">
+        <div class="my-14">
+            <h2 class="my-text text-myWhite text-center text-4xl relative">Лучшие повара этого месяца</h2>
+        </div>
+        <div class="flex flex-row justify-center items-center pt-10">
+            <div class="flexBasic-25 flex flex-row justify-center items-center gap-x-5">
+                <div class="avatar">
+                    <img src="asset/img/avatar-1.png" alt="">
+                </div>
+                <div>
+                    <h2 class="text-myWhite">Григорий Ковалёв</h2>
+                    <p class="text-xs text-lowerGray pt-2">Шеф холодного цеха</p>
+                </div>
+            </div>
+            <div class="flexBasic-25 flex flex-row justify-center items-center gap-x-5">
+                <div class="avatar">
+                    <img src="asset/img/avatar-2.png" alt="">
+                </div>
+                <div>
+                    <h2 class="text-myWhite">Наталья Орехова</h2>
+                    <p class="text-xs text-lowerGray pt-2">Су-шеф горячего цеха</p>
+                </div>
+            </div>
+            <div class="flexBasic-25 flex flex-row justify-center items-center gap-x-5">
+                <div class="avatar">
+                    <img src="asset/img/avatar-3.png" alt="">
+                </div>
+                <div>
+                    <h2 class="text-myWhite">Олег Гилберт</h2>
+                    <p class="text-xs text-lowerGray pt-2">Шеф-кондитер</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content gallery flex flex-col items-center  pb-16">
+        
+            <div class="my-14">
+                <h2 class="my-text text-myWhite text-center text-4xl relative">Популярные десерты</h2>
+            </div>
+       
+            <div class="galleryHero grid grid-cols-3 gap-x-10 justify-items-center items-center">
+                <div class="gallerySize flex flex-col justify-start items-start bg-myGray">
+                   
+                    <div class="flexBasic-50">
+                        <img src="asset/img/gallery-1.png">
+                    </div>
+                    <div class="flexBasic-50 p-5">
+                        <h3 class="text-white pb-3 font-bold">Шоколадный десерт с овсянкой</h3>
+                        <p class="text-myGray text-xs text-justify">
+                            Две мясных котлеты гриль, Специальный соус, сыр, Огурцы, салат и лук, Огурцы, салат и лук. Всё на булачке с кунжутом,
+                        </p>
+                        <div class="flex flex-row justify-between items-center pt-8">
+                            <p class="text-2xl text-myGreen py-5">165₽</p>
+                            <div class="width-100 height-32 flex justify-center items-center btn text-sm">
+                                <a class="block py-2 px-3 font-Regularr uppercase text-xs" href="#">в корзину</a>
+                            </div>
+                        </div>                      
+                    </div>
+                   
+                </div>
+                <div class="gallerySize flex flex-col justify-start items-start bg-myGray">
+                   
+                    <div class="flexBasic-50">
+                        <img src="asset/img/gallery-2.png">
+                    </div>
+                    <div class="flexBasic-50 p-5">
+                        <h3 class="text-white pb-3 font-bold">Шоколадный десерт с овсянкой</h3>
+                        <p class="text-myGray text-xs text-justify">
+                            Две мясных котлеты гриль, Специальный соус, сыр, Огурцы, салат и лук, Огурцы, салат и лук. Всё на булачке с кунжутом,
+                        </p>
+                        <div class="flex flex-row justify-between items-center pt-8">
+                            <p class="text-2xl text-myGreen py-5">165₽</p>
+                            <div class="width-100 height-32 flex justify-center items-center btn text-sm">
+                                <a class="block py-2 px-3 font-Regularr uppercase text-xs" href="#">в корзину</a>
+                            </div>
+                        </div>                      
+                    </div>
+                   
+                </div>
+                <div class="gallerySize flex flex-col justify-start items-start bg-myGray">
+                    
+                        <div class="flexBasic-50">
+                            <img src="asset/img/gallery-3.png">
+                        </div>
+                        <div class="flexBasic-50 p-5">
+                            <h3 class="text-white pb-3 font-bold">Шоколадный десерт с овсянкой</h3>
+                            <p class="text-myGray text-xs text-justify">
+                                Две мясных котлеты гриль, Специальный соус, сыр, Огурцы, салат и лук, Огурцы, салат и лук. Всё на булачке с кунжутом,
+                            </p>
+                            <div class="flex flex-row justify-between items-center pt-8">
+                                <p class="text-2xl text-myGreen py-5">165₽</p>
+                                <div class="width-100 height-32 flex justify-center items-center btn text-sm">
+                                    <a class="block py-2 px-3 font-Regularr uppercase text-xs" href="#">в корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="gallerySize flex flex-col justify-start items-start bg-myGray">
+                    
+                        <div class="flexBasic-50">
+                            <img src="asset/img/gallery-4.png">
+                        </div>
+                        <div class="flexBasic-50 p-5">
+                            <h3 class="text-white pb-3 font-bold">Шоколадный десерт с овсянкой</h3>
+                            <p class="text-myGray text-xs text-justify">
+                                Две мясных котлеты гриль, Специальный соус, сыр, Огурцы, салат и лук, Огурцы, салат и лук. Всё на булачке с кунжутом,
+                            </p>
+                            <div class="flex flex-row justify-between items-center pt-8">
+                                <p class="text-2xl text-myGreen py-5">165₽</p>
+                                <div class="width-100 height-32 flex justify-center items-center btn text-sm">
+                                    <a class="block py-2 px-3 font-Regularr uppercase text-xs" href="#">в корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>              
+                <div class="gallerySize flex flex-col justify-start items-start bg-myGray">
+                    
+                        <div class="flexBasic-50">
+                            <img src="asset/img/gallery-5.png">
+                        </div>
+                        <div class="flexBasic-50 p-5">
+                            <h3 class="text-white pb-3 font-bold">Шоколадный десерт с овсянкой</h3>
+                            <p class="text-myGray text-xs text-justify">
+                                Две мясных котлеты гриль, Специальный соус, сыр, Огурцы, салат и лук, Огурцы, салат и лук. Всё на булачке с кунжутом,
+                            </p>
+                            <div class="flex flex-row justify-between items-center pt-8">
+                                <p class="text-2xl text-myGreen py-5">165₽</p>
+                                <div class="width-100 height-32 flex justify-center items-center btn text-sm">
+                                    <a class="block py-2 px-3 font-Regularr uppercase text-xs" href="#">в корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="gallerySize flex flex-col justify-start items-start bg-myGray">
+                    
+                        <div class="flexBasic-50">
+                            <img src="asset/img/gallery-6.png">
+                        </div>
+                        <div class="flexBasic-50 p-5">
+                            <h3 class="text-white pb-3 font-bold">Шоколадный десерт с овсянкой</h3>
+                            <p class="text-myGray text-xs text-justify">
+                                Две мясных котлеты гриль, Специальный соус, сыр, Огурцы, салат и лук, Огурцы, салат и лук. Всё на булачке с кунжутом,
+                            </p>
+                            <div class="flex flex-row justify-between items-center pt-8">
+                                <p class="text-2xl text-myGreen py-5">165₽</p>
+                                <div class="width-100 height-32 flex justify-center items-center btn text-sm">
+                                    <a class="block py-2 px-3 font-Regularr uppercase text-xs" href="#">в корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div></div>
+                <div class="btn">
+                    <a class="block py-2 px-10 text-black text-xl" href="#">More >></a>
+                </div>
+                <div></div>
+            </div>
+    </section>
+
+    <section class="content review flex flex-col items-center pb-10">
+        <div class="mb-14 mt-5">
+            <h2 class="my-text text-myWhite text-center text-4xl relative">Отзывы</h2>
+        </div>
+        <div class="width-1200 flex flex-row gap-x-10 justify-center items-center">
+            <div class="reviewCard flexBasic-30 bg-myGray p-7 pb-14 rounded-md">
+                <div class="flex flex-row justify-between items-center">
+                    <p class="text-myWhite text-lg">@DennisFerguson</p>
+                    <p class="text-lowerGray text-xs">24 Июн 2019 16:20</p>
+                </div>
+                <div class="text-myGreen text-xs py-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="w-full h-3/4 overflow-y-scroll text-myGray text-justify pb-5 pr-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga saepe nesciunt nobis quia reiciendis quae vel, similique, eaque laborum porro iste ab at eius delectus eligendi praesentium et quibusdam modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quasi obcaecati libero amet ut fuga debitis nam et omnis esse quibusdam eaque voluptatum quo magni tenetur sunt natus, eum ex alias, voluptatem quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat officiis doloribus esse dolore nihil facere. Inventore omnis veritatis nulla fuga vitae, molestias aliquid voluptate alias perferendis doloremque ullam optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cum repellendus culpa commodi soluta molestiae explicabo a numquam corporis? Repellat voluptatem fugit quos doloribus minus quaerat quis sunt perspiciatis placeat.
+                </div>
+            </div>
+            <div class="reviewCard flexBasic-30 bg-myGray p-7 pb-14 rounded-md">
+                <div class="flex flex-row justify-between items-center">
+                    <p class="text-myWhite text-lg">@lilili678</p>
+                    <p class="text-lowerGray text-xs">24 Июн 2019 16:20</p>
+                </div>
+                <div class="text-myGreen text-xs py-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="w-full h-3/4 overflow-y-scroll text-myGray text-justify pb-5 pr-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga saepe nesciunt nobis quia reiciendis quae vel, similique, eaque laborum porro iste ab at eius delectus eligendi praesentium et quibusdam modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quasi obcaecati libero amet ut fuga debitis nam et omnis esse quibusdam eaque voluptatum quo magni tenetur sunt natus, eum ex alias, voluptatem quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat officiis doloribus esse dolore nihil facere. Inventore omnis veritatis nulla fuga vitae, molestias aliquid voluptate alias perferendis doloremque ullam optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cum repellendus culpa commodi soluta molestiae explicabo a numquam corporis? Repellat voluptatem fugit quos doloribus minus quaerat quis sunt perspiciatis placeat.
+                </div>
+            </div>
+            <div class="reviewCard flexBasic-30 bg-myGray p-7 pb-14 rounded-md">
+                <div class="flex flex-row justify-between items-center">
+                    <p class="text-myWhite text-lg">@DennisFerguson</p>
+                    <p class="text-lowerGray text-xs">24 Июн 2019 16:20</p>
+                </div>
+                <div class="text-myGreen text-xs py-3">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="w-full h-3/4 overflow-y-scroll text-myGray text-justify pb-5 pr-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga saepe nesciunt nobis quia reiciendis quae vel, similique, eaque laborum porro iste ab at eius delectus eligendi praesentium et quibusdam modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quasi obcaecati libero amet ut fuga debitis nam et omnis esse quibusdam eaque voluptatum quo magni tenetur sunt natus, eum ex alias, voluptatem quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat officiis doloribus esse dolore nihil facere. Inventore omnis veritatis nulla fuga vitae, molestias aliquid voluptate alias perferendis doloremque ullam optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cum repellendus culpa commodi soluta molestiae explicabo a numquam corporis? Repellat voluptatem fugit quos doloribus minus quaerat quis sunt perspiciatis placeat.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="content footer">
+
+        <div class="my-14">
+            <h2 class="my-text text-myWhite text-center text-4xl relative">Контакты</h2>
+        </div>
+
+        <div class="flex justify-center items-end">
+            <div class="width-1200 flex justify-end items-end">
+                <div class="width-995 height-342 flex flex-row gap-x-2">
+                    <div class="flexBasic-30">
+                        <div class="flex flex-row gap-x-2 text-2xl mb-3">
+                            <div>
+                                <a href="#">
+                                    <i class="text-lowerGray fas fa-envelope"></i>
+                                </a>
+                            </div>
+                            <p class="text-myWhite">hello@mymeal.ru</p>
+                        </div>
+                        <div class="flex flex-row gap-x-2 text-2xl mb-3">
+                            <div>
+                                <a href="#">
+                                    <i class="text-lowerGray fab fa-telegram-plane"></i>
+                                </a>
+                            </div>
+                            <p class="text-myWhite">@mymeal</p>
+                        </div>
+                        <div class="flex flex-row gap-x-2 text-2xl">
+                            <div>
+                                <a href="#">
+                                    <i class="text-lowerGray fas fa-phone-alt"></i>
+                                </a>
+                            </div>
+                            <p class="text-myWhite">+7 (938)833 24 15</p>
+                        </div>
+                    </div>
+                    <div class="flexBasic-70 flex flex-col items-end">
+                        <div class="flex flex-row gap-x-8 justify-between">
+                            <div class="flexBasic-50">
+                                <input class="width-328 height-32 py-3 px-10 outline-none rounded-3xl border border-myGreen bg-transparent text-myGray text-xs" type="text" placeholder="Ваше имя">
+                            </div>
+                            <div class="flexBasic-50">
+                                <input class="width-328 height-32 py-3 px-10 outline-none rounded-3xl border border-myGreen bg-transparent text-myGray text-xs" type="text" placeholder="Ваше имя">
+                            </div>
+                        </div>
+                        <div class="pt-10">
+                            <textarea class="width-686 height-80 py-3 px-10 outline-none rounded-3xl border border-myGreen bg-transparent text-myGray resize-none"  placeholder="Сообщение"></textarea>
+                        </div>
+                        
+                        <div class="flex justify-end items-center mr-9">
+                            <div class="width-160 height-32 pt-10">
+                                <a href="#" class="btnTranparent py-2 px-16 text-myGreen text-center">заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-myGray height-200 flex flex-col">
+            <div class="border-bottom-1 pb-3">
+                <div class="flex flex-row justify-center items-center pt-7 pb-3">
+                    <img class="pb-3 cursor-pointer" src="asset/img/about-us/logo.png">
+                    <p class="text-myGreen text-3xl uppercase font-Regularr font-bold pl-2 cursor-pointer">Территория вкуса</p>
+                </div>
+                <nav class="navigation-bar flex justify-center">
+                    <ul class="flex justify-center items-center">
+                        <li class="text-myGreen mr-10">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="text-myGray mr-10">
+                            <a href="#">Меню</a>
+                        </li>
+                        <li class="text-myGray mr-10">
+                            <a href="#">Доставка</a>
+                        </li>
+                        <li class="text-myGray mr-10">
+                            <a href="#">Оплата</a>
+                        </li>
+                        <li class="text-myGray mr-10">
+                            <a href="#">Франшиза</a>
+                        </li>
+                        <li class="text-myGray">
+                            <a href="#">Вакансии</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex flex-row justify-center items-center pt-6">
+                <a href="#">
+                    <i class="text-myGray text-3xl pr-7 hover-text-mygreen fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="text-myGray text-3xl pr-7 hover-text-mygreen fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="text-myGray text-3xl pr-7 hover-text-mygreen fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="text-myGray text-3xl hover-text-mygreen fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
